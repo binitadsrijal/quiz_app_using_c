@@ -20,7 +20,7 @@ int main()
     printf("Welcome to the Quiz App!\n\n");
 
     // question 1
-    const char *options1[] = {"kabul", "kathmandu", "paris", "Delhi"};
+    const char *options1[] = {"kabul", "kathmandu", "paris", "Delhi"};  //declared options
     int ans1 = askQuestion("What is the capital of France?", options1, 4);
     if (ans1 == 3)
     {
